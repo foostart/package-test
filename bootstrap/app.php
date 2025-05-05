@@ -11,7 +11,13 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        $middleware->alias([
+            'admin_logged' => \Foostart\Acl\Http\Middleware\AdminLogged::class,
+            'logged' => \Foostart\Acl\Http\Middleware\Logged::class,
+            'can_see' => \Foostart\Acl\Http\Middleware\CanSee::class,
+            'has_perm' => \Foostart\Acl\Http\Middleware\HasPerm::class,
+            'in_context' => \Foostart\Category\Middleware\InContext::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
