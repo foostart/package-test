@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7b9b2532cbd9e366dad5d5a3ff51032",
+    "content-hash": "0f1d202bf61f7f440ea7a716429c93a3",
     "packages": [
         {
             "name": "brick/math",
@@ -733,22 +733,22 @@
         },
         {
             "name": "foostart/package-acl",
-            "version": "12.0.2",
+            "version": "12.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-acl.git",
-                "reference": "41f70a2d613522a6e8f16b810b5c45736673e753"
+                "reference": "bacaf4a545163cc4e0e53e37e6907a5edef1e38b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-acl/zipball/41f70a2d613522a6e8f16b810b5c45736673e753",
-                "reference": "41f70a2d613522a6e8f16b810b5c45736673e753",
+                "url": "https://api.github.com/repos/foostart/package-acl/zipball/bacaf4a545163cc4e0e53e37e6907a5edef1e38b",
+                "reference": "bacaf4a545163cc4e0e53e37e6907a5edef1e38b",
                 "shasum": ""
             },
             "require": {
-                "foostart/package-category": "*",
-                "foostart/package-pexcel": "*",
-                "foostart/package-sentry": "*",
+                "foostart/package-category": "^12.0",
+                "foostart/package-pexcel": "^12.0",
+                "foostart/package-sentry": "^12.0",
                 "gregwar/captcha": "1.1.9",
                 "intervention/image": "2.*",
                 "spatie/laravel-html": "3.12.0"
@@ -779,7 +779,7 @@
                     "homepage": "http://www.foostart.com"
                 }
             ],
-            "description": "Laravel authentication and ACL package with a cool admin panel. Laravel 7x",
+            "description": "Laravel authentication and ACL package with a cool admin panel. Laravel 12.x",
             "keywords": [
                 "Authentication",
                 "acl",
@@ -790,22 +790,22 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-acl/issues",
-                "source": "https://github.com/foostart/package-acl/tree/12.0.2"
+                "source": "https://github.com/foostart/package-acl/tree/12.0.8"
             },
-            "time": "2025-05-05T17:54:02+00:00"
+            "time": "2025-05-07T09:27:08+00:00"
         },
         {
             "name": "foostart/package-category",
-            "version": "2022.04.251612",
+            "version": "12.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-category.git",
-                "reference": "6ab98eba5407f4f345faca2e363828a925cf12c5"
+                "reference": "55e289fa658c65aac5a83c0e07b8e32844a3d34b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-category/zipball/6ab98eba5407f4f345faca2e363828a925cf12c5",
-                "reference": "6ab98eba5407f4f345faca2e363828a925cf12c5",
+                "url": "https://api.github.com/repos/foostart/package-category/zipball/55e289fa658c65aac5a83c0e07b8e32844a3d34b",
+                "reference": "55e289fa658c65aac5a83c0e07b8e32844a3d34b",
                 "shasum": ""
             },
             "require": {
@@ -835,22 +835,22 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-category/issues",
-                "source": "https://github.com/foostart/package-category/tree/2022.04.251612"
+                "source": "https://github.com/foostart/package-category/tree/12.0.1"
             },
-            "time": "2021-12-26T16:16:02+00:00"
+            "time": "2025-05-07T06:51:47+00:00"
         },
         {
             "name": "foostart/package-pexcel",
-            "version": "2022.02.09",
+            "version": "12.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-pexcel.git",
-                "reference": "0c19ae9a9bd4b551272e17fcc9ec054a7922158e"
+                "reference": "5745d2ab0d29425dcfd33a4944a6431637b45fd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-pexcel/zipball/0c19ae9a9bd4b551272e17fcc9ec054a7922158e",
-                "reference": "0c19ae9a9bd4b551272e17fcc9ec054a7922158e",
+                "url": "https://api.github.com/repos/foostart/package-pexcel/zipball/5745d2ab0d29425dcfd33a4944a6431637b45fd7",
+                "reference": "5745d2ab0d29425dcfd33a4944a6431637b45fd7",
                 "shasum": ""
             },
             "require": {
@@ -880,9 +880,9 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-pexcel/issues",
-                "source": "https://github.com/foostart/package-pexcel/tree/2022.02.09"
+                "source": "https://github.com/foostart/package-pexcel/tree/12.0.2"
             },
-            "time": "2022-02-08T16:02:26+00:00"
+            "time": "2025-05-07T09:47:49+00:00"
         },
         {
             "name": "foostart/package-post",
@@ -931,16 +931,16 @@
         },
         {
             "name": "foostart/package-sentry",
-            "version": "2022.02.09",
+            "version": "12.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-sentry.git",
-                "reference": "7748534a3fb4f90b9604bb8430041506bdd7a2ec"
+                "reference": "6df36cb4ce7a7acbc1187c5b96cd6d8d3473650e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-sentry/zipball/7748534a3fb4f90b9604bb8430041506bdd7a2ec",
-                "reference": "7748534a3fb4f90b9604bb8430041506bdd7a2ec",
+                "url": "https://api.github.com/repos/foostart/package-sentry/zipball/6df36cb4ce7a7acbc1187c5b96cd6d8d3473650e",
+                "reference": "6df36cb4ce7a7acbc1187c5b96cd6d8d3473650e",
                 "shasum": ""
             },
             "require": {
@@ -1005,9 +1005,9 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-sentry/issues",
-                "source": "https://github.com/foostart/package-sentry/tree/2022.02.09"
+                "source": "https://github.com/foostart/package-sentry/tree/12.0.2"
             },
-            "time": "2021-12-26T10:19:26+00:00"
+            "time": "2025-05-07T09:48:43+00:00"
         },
         {
             "name": "foostart/package-slideshow",
@@ -2139,16 +2139,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.6.2",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94"
+                "reference": "6fbb36d44824ed4091adbcf4c7d4a3923cdb3405"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/06c3b0bf2540338094575612f4a1778d0d2d5e94",
-                "reference": "06c3b0bf2540338094575612f4a1778d0d2d5e94",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/6fbb36d44824ed4091adbcf4c7d4a3923cdb3405",
+                "reference": "6fbb36d44824ed4091adbcf4c7d4a3923cdb3405",
                 "shasum": ""
             },
             "require": {
@@ -2185,7 +2185,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.7-dev"
+                    "dev-main": "2.8-dev"
                 }
             },
             "autoload": {
@@ -2242,7 +2242,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-18T21:09:27+00:00"
+            "time": "2025-05-05T12:20:28+00:00"
         },
         {
             "name": "league/config",
