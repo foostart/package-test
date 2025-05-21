@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01be5b01471724cdcf22819311c5d84c",
+    "content-hash": "0ce9949debd1766f8e7111fe6b24fefd",
     "packages": [
         {
             "name": "brick/math",
@@ -733,16 +733,16 @@
         },
         {
             "name": "foostart/package-acl",
-            "version": "12.0.8",
+            "version": "12.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-acl.git",
-                "reference": "bacaf4a545163cc4e0e53e37e6907a5edef1e38b"
+                "reference": "a96a4ab05151c078fe5ded97217e650003f0dc1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-acl/zipball/bacaf4a545163cc4e0e53e37e6907a5edef1e38b",
-                "reference": "bacaf4a545163cc4e0e53e37e6907a5edef1e38b",
+                "url": "https://api.github.com/repos/foostart/package-acl/zipball/a96a4ab05151c078fe5ded97217e650003f0dc1d",
+                "reference": "a96a4ab05151c078fe5ded97217e650003f0dc1d",
                 "shasum": ""
             },
             "require": {
@@ -790,26 +790,26 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-acl/issues",
-                "source": "https://github.com/foostart/package-acl/tree/12.0.8"
+                "source": "https://github.com/foostart/package-acl/tree/12.0.9"
             },
-            "time": "2025-05-07T09:27:08+00:00"
+            "time": "2025-05-09T01:43:08+00:00"
         },
         {
             "name": "foostart/package-category",
-            "version": "12.0.1",
+            "version": "12.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-category.git",
-                "reference": "55e289fa658c65aac5a83c0e07b8e32844a3d34b"
+                "reference": "09881855b8f9a9cbfa4eb526324c76c99578bcd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-category/zipball/55e289fa658c65aac5a83c0e07b8e32844a3d34b",
-                "reference": "55e289fa658c65aac5a83c0e07b8e32844a3d34b",
+                "url": "https://api.github.com/repos/foostart/package-category/zipball/09881855b8f9a9cbfa4eb526324c76c99578bcd5",
+                "reference": "09881855b8f9a9cbfa4eb526324c76c99578bcd5",
                 "shasum": ""
             },
             "require": {
-                "foostart/package-post": "*"
+                "foostart/package-post": "^12.0"
             },
             "type": "library",
             "autoload": {
@@ -835,13 +835,88 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-category/issues",
-                "source": "https://github.com/foostart/package-category/tree/12.0.1"
+                "source": "https://github.com/foostart/package-category/tree/12.0.6"
             },
-            "time": "2025-05-07T06:51:47+00:00"
+            "time": "2025-05-09T01:44:27+00:00"
+        },
+        {
+            "name": "foostart/package-filemanager",
+            "version": "12.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/foostart/package-filemanager.git",
+                "reference": "61cd047942840ad4185bc0cf2423e60d475b22eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/foostart/package-filemanager/zipball/61cd047942840ad4185bc0cf2423e60d475b22eb",
+                "reference": "61cd047942840ad4185bc0cf2423e60d475b22eb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-exif": "*",
+                "ext-fileinfo": "*",
+                "illuminate/support": ">=4.2.0",
+                "intervention/image": "2.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.0",
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.8"
+            },
+            "suggest": {
+                "ext-gd": "to use GD library based image processing.",
+                "ext-imagick": "to use Imagick based image processing."
+            },
+            "bin": [
+                "bin/debug"
+            ],
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": [],
+                    "providers": [
+                        "Foostart\\Filemanager\\FilemanagerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Foostart\\Filemanager\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "foostart",
+                    "email": "foostart.com@gmail.com",
+                    "homepage": "http://www.foostart.com"
+                }
+            ],
+            "description": "A file upload/editor intended for use with Laravel 5 and CKEditor / TinyMCE",
+            "keywords": [
+                "CKEditor",
+                "file",
+                "filemanager",
+                "image",
+                "laravel",
+                "manager",
+                "tinymce",
+                "upload"
+            ],
+            "support": {
+                "issues": "https://github.com/foostart/package-filemanager/issues",
+                "source": "https://github.com/foostart/package-filemanager/tree/12.0.3"
+            },
+            "time": "2025-05-07T09:37:12+00:00"
         },
         {
             "name": "foostart/package-pexcel",
-            "version": "12.0.2",
+            "version": "12.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-pexcel.git",
@@ -880,26 +955,27 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-pexcel/issues",
-                "source": "https://github.com/foostart/package-pexcel/tree/12.0.2"
+                "source": "https://github.com/foostart/package-pexcel/tree/12.0.3"
             },
             "time": "2025-05-07T09:47:49+00:00"
         },
         {
             "name": "foostart/package-post",
-            "version": "7.0.0",
+            "version": "12.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-post.git",
-                "reference": "1d26ebaa3f2384b744fb341c8080946f7f6d5d0a"
+                "reference": "13169a66815608e9eefa6959efa17e08971103b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-post/zipball/1d26ebaa3f2384b744fb341c8080946f7f6d5d0a",
-                "reference": "1d26ebaa3f2384b744fb341c8080946f7f6d5d0a",
+                "url": "https://api.github.com/repos/foostart/package-post/zipball/13169a66815608e9eefa6959efa17e08971103b2",
+                "reference": "13169a66815608e9eefa6959efa17e08971103b2",
                 "shasum": ""
             },
             "require": {
-                "foostart/package-slideshow": "*"
+                "foostart/package-filemanager": "^12.0",
+                "foostart/package-slideshow": "^12.0"
             },
             "type": "library",
             "autoload": {
@@ -921,13 +997,13 @@
             "description": "Manage post",
             "keywords": [
                 "foostart",
-                "laravel 5 package post"
+                "laravel 8 package post"
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-post/issues",
-                "source": "https://github.com/foostart/package-post/tree/4.0.2"
+                "source": "https://github.com/foostart/package-post/tree/12.0.3"
             },
-            "time": "2019-06-04T03:31:10+00:00"
+            "time": "2025-05-07T09:40:33+00:00"
         },
         {
             "name": "foostart/package-sentry",
@@ -1011,16 +1087,16 @@
         },
         {
             "name": "foostart/package-slideshow",
-            "version": "2022.02.09",
+            "version": "12.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/foostart/package-slideshow.git",
-                "reference": "34646190f596faded37d4956533a8563d2654cfa"
+                "reference": "0433802e5f198c4d8367e63cd3fbc8c33abe298f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/foostart/package-slideshow/zipball/34646190f596faded37d4956533a8563d2654cfa",
-                "reference": "34646190f596faded37d4956533a8563d2654cfa",
+                "url": "https://api.github.com/repos/foostart/package-slideshow/zipball/0433802e5f198c4d8367e63cd3fbc8c33abe298f",
+                "reference": "0433802e5f198c4d8367e63cd3fbc8c33abe298f",
                 "shasum": ""
             },
             "type": "library",
@@ -1047,9 +1123,9 @@
             ],
             "support": {
                 "issues": "https://github.com/foostart/package-slideshow/issues",
-                "source": "https://github.com/foostart/package-slideshow/tree/2022.02.09"
+                "source": "https://github.com/foostart/package-slideshow/tree/12.0.3"
             },
-            "time": "2021-09-06T14:30:26+00:00"
+            "time": "2025-05-07T07:47:06+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1738,16 +1814,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.12.0",
+            "version": "v12.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8f6cd73696068c28f30f5964556ec9d14e5d90d7"
+                "reference": "52b588bcd8efc6d01bc1493d2d67848f8065f269"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8f6cd73696068c28f30f5964556ec9d14e5d90d7",
-                "reference": "8f6cd73696068c28f30f5964556ec9d14e5d90d7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/52b588bcd8efc6d01bc1493d2d67848f8065f269",
+                "reference": "52b588bcd8efc6d01bc1493d2d67848f8065f269",
                 "shasum": ""
             },
             "require": {
@@ -1768,7 +1844,7 @@
                 "guzzlehttp/uri-template": "^1.0",
                 "laravel/prompts": "^0.3.0",
                 "laravel/serializable-closure": "^1.3|^2.0",
-                "league/commonmark": "^2.6",
+                "league/commonmark": "^2.7",
                 "league/flysystem": "^3.25.1",
                 "league/flysystem-local": "^3.25.1",
                 "league/uri": "^7.5.1",
@@ -1860,7 +1936,7 @@
                 "php-http/discovery": "^1.15",
                 "phpstan/phpstan": "^2.0",
                 "phpunit/phpunit": "^10.5.35|^11.5.3|^12.0.1",
-                "predis/predis": "^2.3",
+                "predis/predis": "^2.3|^3.0",
                 "resend/resend-php": "^0.10.0",
                 "symfony/cache": "^7.2.0",
                 "symfony/http-client": "^7.2.0",
@@ -1892,7 +1968,7 @@
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (^5.0).",
                 "php-http/discovery": "Required to use PSR-7 bridging features (^1.15).",
                 "phpunit/phpunit": "Required to use assertions and run tests (^10.5.35|^11.5.3|^12.0.1).",
-                "predis/predis": "Required to use the predis connector (^2.3).",
+                "predis/predis": "Required to use the predis connector (^2.3|^3.0).",
                 "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^6.0|^7.0).",
                 "resend/resend-php": "Required to enable support for the Resend mail transport (^0.10.0).",
@@ -1949,7 +2025,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-05-01T16:13:12+00:00"
+            "time": "2025-05-07T17:29:01+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -3371,31 +3447,31 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v2.3.0",
+            "version": "v2.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda"
+                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/52915afe6a1044e8b9cee1bcff836fb63acf9cda",
-                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/dfa08f390e509967a15c22493dc0bac5733d9123",
+                "reference": "dfa08f390e509967a15c22493dc0bac5733d9123",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": "^8.2",
-                "symfony/console": "^7.1.8"
+                "symfony/console": "^7.2.6"
             },
             "require-dev": {
-                "illuminate/console": "^11.33.2",
-                "laravel/pint": "^1.18.2",
+                "illuminate/console": "^11.44.7",
+                "laravel/pint": "^1.22.0",
                 "mockery/mockery": "^1.6.12",
-                "pestphp/pest": "^2.36.0",
-                "phpstan/phpstan": "^1.12.11",
-                "phpstan/phpstan-strict-rules": "^1.6.1",
-                "symfony/var-dumper": "^7.1.8",
+                "pestphp/pest": "^2.36.0 || ^3.8.2",
+                "phpstan/phpstan": "^1.12.25",
+                "phpstan/phpstan-strict-rules": "^1.6.2",
+                "symfony/var-dumper": "^7.2.6",
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -3438,7 +3514,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.0"
+                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.1"
             },
             "funding": [
                 {
@@ -3454,7 +3530,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-11-21T10:39:51+00:00"
+            "time": "2025-05-08T08:14:37+00:00"
         },
         {
             "name": "phpoffice/phpspreadsheet",

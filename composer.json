@@ -8,7 +8,8 @@
     "require": {
         "php": "^8.2",
         "foostart/package-acl": "^12.0",
-        "foostart/package-post": "^7.0",
+        "foostart/package-category": "^12.0.5",
+        "foostart/package-post": "^12.0",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1"
     },
